@@ -12,4 +12,15 @@
         <servlet-name>Hello</servlet-name>
         <url-pattern>/hello/*</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>First</servlet-name>
+        <servlet-class>org.example.FirstServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>First</servlet-name>
+        <url-pattern>/first.web</url-pattern>
+    </servlet-mapping>
+
 </web-app>
